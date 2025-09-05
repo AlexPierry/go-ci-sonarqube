@@ -19,3 +19,4 @@ jobs:
       
       - name: Run tests and generate coverage
         run: go test -coverprofile=coverage.out
+        
