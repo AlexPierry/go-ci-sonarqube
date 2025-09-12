@@ -33,3 +33,9 @@ func TestSumMixedSigns(t *testing.T) {
 		t.Errorf("sum(-5, 3) = %d; want %d", result, expected)
 	}
 }
+
+// test main function
+func TestMainFunction(t *testing.T) {
+	// Just call main to ensure it runs without error
+	main()
+}
